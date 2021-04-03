@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
         rel="stylesheet">
     <title>Shop</title>
 </head>
@@ -17,8 +18,8 @@
     <header class="header">
         <div class="container header__container">
             <div>
-                <img class="header__logo" src="./img/logo.svg" alt="logo" width="44" height="38">
-                <img src="./img/loupe.svg" alt="loupe" width="26" height="28">
+                <img class="header__logo" src="img/logo.svg" alt="logo" width="44" height="38">
+                <img src="img/loupe.png" alt="loupe" width="26" height="28">
             </div>
             <div>
                 <button type="button" class="header__button">
@@ -28,12 +29,12 @@
                     </svg>
                 </button>
                 <a class="header__link" href="#">
-                    <svg class="header__button-icon" width="32" height="23" viewBox="0 0 32 23"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
-                    </svg></a>
-                <a class="header__link-opacity" href="#"><img src="./img/burger.svg" alt="cart" width="32"
-                        height="23"></a>
+                    <svg class="header__button-icon" width="29" height="29" viewBox="0 0 29 29"  xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.5 19.937C19 19.937 22.656 15.464 22.656 9.968C22.656 4.472 19 0 14.5 0C13.3631 0.0217413 12.2463 0.303398 11.2351 0.823397C10.2239 1.34339 9.34507 2.08794 8.66602 3C7.12663 4.99573 6.30819 7.45381 6.34399 9.974C6.34399 15.465 10 19.937 14.5 19.937ZM14.5 1.813C18 1.813 20.844 5.472 20.844 9.969C20.844 14.466 17.998 18.125 14.5 18.125C11.002 18.125 8.15603 14.465 8.15503 9.969C8.15403 5.473 11 1.813 14.5 1.813ZM20.844 18.125C20.6036 18.125 20.373 18.2205 20.203 18.3905C20.033 18.5605 19.9375 18.7911 19.9375 19.0315C19.9375 19.2719 20.033 19.5025 20.203 19.6725C20.373 19.8425 20.6036 19.938 20.844 19.938C22.526 19.9399 24.1386 20.6088 25.3279 21.7982C26.5172 22.9875 27.1861 24.6 27.188 26.282C27.1875 26.5221 27.0918 26.7523 26.922 26.9221C26.7522 27.0918 26.5221 27.1875 26.282 27.188H2.71997C2.47985 27.1875 2.24975 27.0918 2.07996 26.9221C1.91016 26.7523 1.81449 26.5221 1.81396 26.282C1.81608 24.6001 2.48517 22.9877 3.67444 21.7985C4.86371 20.6092 6.47608 19.9401 8.15796 19.938C8.39824 19.938 8.62868 19.8425 8.79858 19.6726C8.96849 19.5027 9.06396 19.2723 9.06396 19.032C9.06396 18.7917 8.96849 18.5613 8.79858 18.3914C8.62868 18.2215 8.39824 18.126 8.15796 18.126C5.99541 18.1279 3.92201 18.9875 2.39258 20.5164C0.863144 22.0453 0.00264777 24.1185 0 26.281C0.000794067 27.0019 0.287502 27.693 0.797241 28.2027C1.30698 28.7125 1.99811 28.9992 2.71899 29H26.282C27.0027 28.9989 27.6936 28.7121 28.2031 28.2024C28.7126 27.6927 28.9992 27.0017 29 26.281C28.9974 24.1187 28.1372 22.0457 26.6083 20.5168C25.0793 18.9878 23.0063 18.1276 20.844 18.125Z" />
+                        </svg>  
+                </a>
+                <a class="header__link" href="#">
+                    <img src="img/cart.png" alt="cart" width="41" height="37"></a>
             </div>
         </div>
         <nav class="header__navigation">
@@ -43,27 +44,30 @@
                     <a class="header__sub-title" href="#">man</a>
                     <ul class="header__sub-navigation-list">
                         <li><a href="#" class="header__sub-navigation-link">Accessories</a></li>
-                        <li><a href="#" class="header__sub-navigation-link">Accessories</a></li>
-                        <li><a href="#" class="header__sub-navigation-link">Accessories</a></li>
-                        <li><a href="#" class="header__sub-navigation-link">Accessories</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Bags</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Denim</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">T-Shirts</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">man</a>
-                    <ul>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Accessories</a></li>
+                <li class="header__navigation-item">
+                    <a class="header__sub-title" href="#">woman</a>
+                    <ul class="header__sub-navigation-list">
+                        <li><a href="#" class="header__sub-navigation-link">Accessories</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Jackets & Coats</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Polos</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">T-Shirts</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Shirts</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">man</a>
-                    <ul>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Accessories</a></li>
-                        <li><a href="#">Accessories</a></li>
+                <li class="header__navigation-item">
+                    <a class="header__sub-title" href="#">kids</a>
+                    <ul class="header__sub-navigation-list">
+                        <li><a href="#" class="header__sub-navigation-link">Accessories</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Jackets & Coats</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Polos</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">T-Shirts</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Shirts</a></li>
+                        <li><a href="#" class="header__sub-navigation-link">Bags</a></li>
                     </ul>
                 </li>
             </ul>
@@ -71,7 +75,7 @@
     </header>
     <main>
         <section class="brand">
-            <img class="brand__img" src="./img/man.jpg" alt="man" width="800" height="765">
+            <img class="brand__img" src="img/man.jpg" alt="man" width="800" height="765">
             <div class="brand__title-container">
                 <h1 class="brand__title">the brand <span class="brand__sub-title">of luxerious <span
                             class="brand__pink-sub-title">fashion</span><span></h1>
@@ -85,16 +89,16 @@
                     <p class="promotions__text">for women</p>
                 </li>
                 <li class="promotions__item promotions__item--man">
-                    <h3 class="promotions__title">30% off</h3>
-                    <p class="promotions__text">for women</p>
+                    <h3 class="promotions__title">hot deal</h3>
+                    <p class="promotions__text">for men</p>
                 </li>
                 <li class="promotions__item promotions__item--kids">
-                    <h3 class="promotions__title">30% off</h3>
-                    <p class="promotions__text">for women</p>
+                    <h3 class="promotions__title">new arrivals</h3>
+                    <p class="promotions__text">for kids</p>
                 </li>
                 <li class="promotions__item promotions__item--accesories">
-                    <h3 class="promotions__title">30% off</h3>
-                    <p class="promotions__text">for women</p>
+                    <h3 class="promotions__title">luxirous $ trendy</h3>
+                    <p class="promotions__text">accesories</p>
                 </li>
             </ul>
         </section>
@@ -115,7 +119,7 @@
                     </div>
                 </li>
                 <li class="products__item product">
-                    <img class="product__img" src="./img/goods-man.jpg" alt="man" width="360" height="420">
+                    <img class="product__img" src="img/card-2.jpg" alt="woman" width="360" height="420">
                     <div class="product__description">
                         <h3 class="product__title">ellery x m'o capsule</h3>
                         <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian
@@ -127,7 +131,7 @@
                     </div>
                 </li>
                 <li class="products__item product">
-                    <img class="product__img" src="./img/goods-man.jpg" alt="man" width="360" height="420">
+                    <img class="product__img" src="img/card-3.jpg" alt="man" width="360" height="420">
                     <div class="product__description">
                         <h3 class="product__title">ellery x m'o capsule</h3>
                         <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian
@@ -139,7 +143,7 @@
                     </div>
                 </li>
                 <li class="products__item product">
-                    <img class="product__img" src="./img/goods-man.jpg" alt="man" width="360" height="420">
+                    <img class="product__img" src="img/card-4.jpg" alt="man" width="360" height="420">
                     <div class="product__description">
                         <h3 class="product__title">ellery x m'o capsule</h3>
                         <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian
@@ -151,7 +155,7 @@
                     </div>
                 </li>
                 <li class="products__item product">
-                    <img class="product__img" src="./img/goods-man.jpg" alt="man" width="360" height="420">
+                    <img class="product__img" src="img/card-5.jpg" alt="woman" width="360" height="420">
                     <div class="product__description">
                         <h3 class="product__title">ellery x m'o capsule</h3>
                         <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian
@@ -163,7 +167,7 @@
                     </div>
                 </li>
                 <li class="products__item product">
-                    <img class="product__img" src="./img/goods-man.jpg" alt="man" width="360" height="420">
+                    <img class="product__img" src="img/card-6.jpg" alt="woman" width="360" height="420">
                     <div class="product__description">
                         <h3 class="product__title">ellery x m'o capsule</h3>
                         <p class="product__text">Known for her sculptural takes on traditional tailoring, Australian
@@ -177,21 +181,85 @@
             </ul>
             <button type="button">Browse All Product</button>
         </section>
-        <section>
-            самостоятельно - разметка + классы
+        <section class="adventages container">
+            <ul class="adventages__list">
+                <li class="adventages__item">
+                    <img class="adventages__img" src="img/car.png" alt="car" width="45" height="32">
+                    <div class="adventages__descrition">
+                        <h2 class="adventages__title">Free Delivery</h2>
+                        <p class="adventages__text">Worldwide delivery on all. Authorit tively morph next-generation
+                            innov tion with extensive models.</p>
+                    </div>
+                </li>
+                <li class="adventages__item">
+                    <img class="adventages__img" src="img/promo.png" alt="promo" width="40" height="40">
+                    <div class="adventages__descrition">
+                        <h2 class="adventages__title">Sales & discounts</h2>
+                        <p class="adventages__text">Worldwide delivery on all. Authorit tively morph next-generation
+                            innov tion with extensive models.</p>
+                    </div>
+                </li>
+                <li class="adventages__item">
+                    <img class="adventages__img" src="img/crown.png" alt="crown" width="47" height="35">
+                    <div class="adventages__descrition">
+                        <h2 class="adventages__title">Free Delivery</h2>
+                        <p class="adventages__text">Worldwide delivery on all. Authorit tively morph next-generation
+                            innov tion with extensive models.</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
-    <footer>
-        img-woman
-        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
-        <h2>subscribe for our newletter and promotion</h2>
-        <p>© 2021 Brand All Rights Reserved.</p>
-        <ul>
-            <li><a href="#">facebook-img</a></li>
-            <li><a href="#">facebook-img</a></li>
-            <li><a href="#">facebook-img</a></li>
-            <li><a href="#">facebook-img</a></li>
-        </ul>
+    <footer class="footer">
+        <img class="footer__img" src="img/img-woman.jpg" alt="woman">
+        <p class="footer__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+        <div>
+            <h2 class="footer__title">subscribe for our newletter and promotion</h2>
+            <p class="footer__text">© 2021 Brand All Rights Reserved.</p>
+        </div>
+        <div>
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">
+                        <svg width="11" height="16" viewBox="0 0 11 16" class="footer__link-ico">
+                            <path
+                                d="M9.08836 8.28L9.50686 5.61602H6.89022V3.88729C6.89022 3.15847 7.25574 2.44806 8.42765 2.44806H9.61722V0.179975C9.61722 0.179975 8.53772 0 7.50561 0C5.35073 0 3.9422 1.27593 3.9422 3.5857V5.61602H1.54688V8.28H3.9422V14.72H6.89022V8.28H9.08836Z" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" class="footer__link">
+                        <svg width="16" height="15" viewBox="0 0 16 15"
+                            class="footer__link-ico footer__link-ico--insta">
+                            <path
+                                d="M8.13897 3.68159C6.02383 3.68159 4.31774 5.38491 4.31774 7.49663C4.31774 9.60835 6.02383 11.3117 8.13897 11.3117C10.2541 11.3117 11.9602 9.60835 11.9602 7.49663C11.9602 5.38491 10.2541 3.68159 8.13897 3.68159ZM8.13897 9.9769C6.77211 9.9769 5.65467 8.8646 5.65467 7.49663C5.65467 6.12866 6.76878 5.01636 8.13897 5.01636C9.50915 5.01636 10.6233 6.12866 10.6233 7.49663C10.6233 8.8646 9.50583 9.9769 8.13897 9.9769ZM13.0078 3.52554C13.0078 4.02026 12.6087 4.41538 12.1165 4.41538C11.621 4.41538 11.2252 4.01694 11.2252 3.52554C11.2252 3.03413 11.6243 2.63569 12.1165 2.63569C12.6087 2.63569 13.0078 3.03413 13.0078 3.52554ZM15.5386 4.42866C15.4821 3.23667 15.2094 2.18081 14.3347 1.31089C13.4634 0.440967 12.4058 0.168701 11.2119 0.108936C9.9814 0.039209 6.29321 0.039209 5.0627 0.108936C3.8721 0.165381 2.81453 0.437646 1.93987 1.30757C1.06522 2.17749 0.795836 3.23335 0.735973 4.42534C0.666134 5.65386 0.666134 9.33608 0.735973 10.5646C0.79251 11.7566 1.06522 12.8124 1.93987 13.6824C2.81453 14.5523 3.86878 14.8246 5.0627 14.8843C6.29321 14.9541 9.9814 14.9541 11.2119 14.8843C12.4058 14.8279 13.4634 14.5556 14.3347 13.6824C15.2061 12.8124 15.4788 11.7566 15.5386 10.5646C15.6085 9.33608 15.6085 5.65718 15.5386 4.42866ZM13.949 11.8828C13.6895 12.5335 13.1874 13.0349 12.5322 13.2972C11.5511 13.6857 9.22314 13.596 8.13897 13.596C7.05479 13.596 4.72348 13.6824 3.74573 13.2972C3.09389 13.0382 2.59171 12.5369 2.32898 11.8828C1.93987 10.9033 2.02967 8.57905 2.02967 7.49663C2.02967 6.41421 1.9432 4.08667 2.32898 3.1105C2.58838 2.45972 3.09056 1.95835 3.74573 1.69604C4.7268 1.30757 7.05479 1.39722 8.13897 1.39722C9.22314 1.39722 11.5545 1.31089 12.5322 1.69604C13.184 1.95503 13.6862 2.4564 13.949 3.1105C14.3381 4.08999 14.2483 6.41421 14.2483 7.49663C14.2483 8.57905 14.3381 10.9066 13.949 11.8828Z" />
+                        </svg></a>
+                </li>
+                <li><a href="#" class="footer__link">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M31.9252 0H0.474609V32H31.9252V0Z" fill="white" />
+                            <g clip-path="url(#clip0)">
+                                <path
+                                    d="M16.7403 8.20312C13.5556 8.20312 10.4082 10.3406 10.4082 13.8C10.4082 16 11.6374 17.25 12.3823 17.25C12.6896 17.25 12.8666 16.3875 12.8666 16.1438C12.8666 15.8531 12.1309 15.2344 12.1309 14.025C12.1309 11.5125 14.0305 9.73125 16.4889 9.73125C18.6027 9.73125 20.1671 10.9406 20.1671 13.1625C20.1671 14.8219 19.506 17.9344 17.3642 17.9344C16.5913 17.9344 15.9302 17.3719 15.9302 16.5656C15.9302 15.3844 16.7496 14.2406 16.7496 13.0219C16.7496 10.9531 13.835 11.3281 13.835 13.8281C13.835 14.3531 13.9002 14.9344 14.133 15.4125C13.7046 17.2688 12.8293 20.0344 12.8293 21.9469C12.8293 22.5375 12.9131 23.1188 12.969 23.7094C13.0745 23.8281 13.0218 23.8156 13.1832 23.7563C14.7476 21.6 14.6917 21.1781 15.3994 18.3562C15.7812 19.0875 16.7683 19.4812 17.5505 19.4812C20.8469 19.4812 22.3275 16.2469 22.3275 13.3313C22.3275 10.2281 19.6643 8.20312 16.7403 8.20312Z"
+                                    fill="black" />
+                            </g>
+                            
+                        </svg></a>
+                </li>
+                <li><a href="#" class="footer__link">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M31.6635 0H0.212891V32H31.6635V0Z" fill="white" />
+                            <g clip-path="url(#clip0)">
+                                <path
+                                    d="M22.417 12.7405C22.427 12.8826 22.427 13.0248 22.427 13.1669C22.427 17.5019 19.1498 22.4969 13.1599 22.4969C11.3145 22.4969 9.60022 21.9588 8.1582 21.0248C8.4204 21.0552 8.67247 21.0654 8.94475 21.0654C10.4674 21.0654 11.8691 20.5476 12.9884 19.6644C11.5565 19.6339 10.3565 18.6898 9.94305 17.3903C10.1447 17.4207 10.3464 17.441 10.5582 17.441C10.8506 17.441 11.1431 17.4004 11.4153 17.3294C9.92291 17.0248 8.80355 15.705 8.80355 14.1111V14.0705C9.23715 14.3141 9.74139 14.4664 10.2758 14.4867C9.39849 13.8979 8.82373 12.8928 8.82373 11.7557C8.82373 11.1466 8.98504 10.5882 9.26741 10.1009C10.8708 12.0908 13.2809 13.3902 15.9833 13.5324C15.9329 13.2887 15.9027 13.035 15.9027 12.7811C15.9027 10.974 17.3548 9.50195 19.1598 9.50195C20.0976 9.50195 20.9446 9.89789 21.5396 10.5375C22.2757 10.3954 22.9816 10.1212 23.6068 9.74561C23.3648 10.507 22.8505 11.1466 22.1749 11.5527C22.8304 11.4817 23.4657 11.2989 24.0505 11.0451C23.6069 11.6948 23.0522 12.2735 22.417 12.7405Z"
+                                    fill="black" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="15.8924" height="16" fill="white" transform="translate(8.1582 8)" />
+                                </clipPath>
+                            </defs>
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 
