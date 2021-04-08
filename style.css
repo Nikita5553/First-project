@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 71%;
     margin: 0 auto;
 }
 
@@ -252,14 +252,57 @@ body {
     margin: 0 auto;
 }
 
+.footer__quotation {
+    margin: 86px auto 211px 325px;
+}
+
+.footer__title {
+    margin: 150px 237px 32px auto;
+    display: block;
+}
+
+.footer__pink-sub-title {
+    text-transform: uppercase;
+    color: var(--dark-pink-color);
+}
+
+.footer__search-form-input {}
 
 .footer__bottom {
     display: flex;
     justify-content: space-between;
     max-width: 1600px;
     margin: 0 auto;
+    background-color: var(--black-color);
+}
+
+.footer__text {
+    color: white;
+}
+
+.footer__button {
+    background-color: var(--dark-pink-color);
 }
 
 .footer__links {
     display: flex;
+}
+
+
+
+.registration {
+    background-color: var(--pink-color);
+    min-height: 148px;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+
+
+.registration__title {
+    color: var(--dark-pink-color);
+    text-transform: uppercase;
+    padding-left: 230px;
+    padding-top: 60px;
 }
