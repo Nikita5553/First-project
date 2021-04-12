@@ -3,6 +3,9 @@
     --pink-color: #F1E4E6;
     --dark-pink-color: #F16D7F;
     --grey-light-color: #E8E8E8;
+    --antracite-grey-color: #222224;
+    --middle-grey-color: #E1E1E1;
+    --light-beige-color: #FBFBFB;
 
 }
 
@@ -243,51 +246,163 @@ body {
     margin-bottom: 104px;
 }
 
-.footer__top {
+.footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 448px;
+    background-image: url(./img/footer-bkg.png);
+}
+
+.footer__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(./img/footer-bkg.png);
-    max-width: 1600px;
-    margin: 0 auto;
+    list-style-type: none;
 }
 
-.footer__quotation {
-    margin: 86px auto 211px 325px;
-}
-
-.footer__title {
-    margin: 150px 237px 32px auto;
-    display: block;
-}
-
-.footer__pink-sub-title {
-    text-transform: uppercase;
-    color: var(--dark-pink-color);
-}
-
-.footer__search-form-input {}
-
-.footer__bottom {
+.footer__item {
     display: flex;
-    justify-content: space-between;
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: var(--black-color);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer__img {
+    border-radius: 90%;
+    margin-top: 87px;
 }
 
 .footer__text {
-    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--antracite-grey-color);
+    text-align: center;
+}
+
+.footer__text-italic {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--antracite-grey-color);
+}
+
+
+.footer__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    font-weight: bold;
+    color: var(--antracite-grey-color);
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.footer__sub-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--antracite-grey-color);
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.footer__form {
+    display: inline-block;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.footer__form-input {
+    width: 323px;
+    height: 49px;
+    background-color: var(--middle-grey-color);
+    padding: 7px 64px 6px 22px;
+    border-style: none;
+    outline: none;
+    border-radius: 25px 0 0 25px;
 }
 
 .footer__button {
+    width: 100px;
+    height: 62px;
+    margin-left: -20px;
+    font-size: 14px;
+    font-weight: 400;
+    border-style: none;
+    outline: none;
+    padding: 7px 7px 6px 8px;
+    color: var(--white-color);
+    background-color: var(--dark-pink-color);
+    border-radius: 0 25px 25px 0;
+}
+
+.footer__social {
+    background-color: var(--antracite-grey-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 79px;
+}
+
+.footer__copy {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--light-beige-color);
+    margin-left: 235px;
+}
+
+.footer__social-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 230px;
+}
+
+.footer__social-item {
+    margin-right: 7px;
+}
+
+.footer__social-item-icon {
+    fill: var(--black-color);
+}
+
+.facebook {
+    padding: 8px 9px 11px 11px;
+}
+
+.instagram {
+    padding: 9px 8px 8px 8px;
+}
+
+.pinterest {
+    padding: 8px 8px 9px 10px;
+}
+
+.twitter {
+    padding: 10px 10px 7px 8px;
+}
+
+.footer__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.footer__link:hover {
     background-color: var(--dark-pink-color);
 }
 
-.footer__links {
-    display: flex;
+.footer__social-item-icon:hover {
+    fill: var(--white-color);
 }
-
 
 
 .registration {
@@ -301,8 +416,11 @@ body {
 
 
 .registration__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
     color: var(--dark-pink-color);
     text-transform: uppercase;
-    padding-left: 230px;
-    padding-top: 60px;
+    padding-top: 59px;
 }
