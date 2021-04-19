@@ -76,26 +76,30 @@
     </nav>
   </header>
   <main>
-    <section class="registration">
+    <section class="registration container">
       <h1 class="registration__title">registration</h1>
     </section>
 
-    <form action="#" class="registration__form">
-      <fieldset>
-        <legend>Your Name</legend>
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input class="radio-input" type="radio" id="male" name="gender" value="male">
-        <label class="radio-label" for="male">Male</label>
-        <input class="radio-input" type="radio" id="female" name="gender" value="female">
-        <label for="female">Femael</label>
+    <form action="#" class="form container">
+      <fieldset class="registration__form">
+        <legend class="registration__form-title">Your Name</legend>
+        <input class="registration__form-input" type="text" placeholder="First Name">
+        <input class="registration__form-input" type="text" placeholder="Last Name">
+        <div class="radio">
+          <input class="radio-input" type="radio" id="male" name="gender" value="male">
+          <label class="radio-label" for="male">Male</label>
+          <input class="radio-input" type="radio" id="female" name="gender" value="female">
+          <label for="female">Femael</label>
+        </div>
       </fieldset>
-      <fieldset>
-        <legend>Login details</legend>
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Password">
+      <fieldset class="registration__form">
+        <legend class="registration__form-title">Login details</legend>
+        <input class="registration__form-input" type="text" placeholder="Email">
+        <input class="registration__form-input" type="text" placeholder="Password">
+        <p class="registration__text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase
+          and lowercase letters</p>
       </fieldset>
-      <button type="submit"></button>
+      <button class="registration__button" type="submit">join now</button>
     </form>
   </main>
   <footer>
